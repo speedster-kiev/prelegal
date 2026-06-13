@@ -1,0 +1,64 @@
+{
+  "templates": [
+    {
+      "name": "Mutual Non-Disclosure Agreement (MNDA)",
+      "description": "A standard mutual NDA created by a committee of over 40 attorneys representing technology vendors, procurement teams, boutique firms, and Big Law. Covers confidentiality obligations between two parties sharing proprietary information.",
+      "filename": "Mutual-NDA.md"
+    },
+    {
+      "name": "Mutual NDA Cover Page",
+      "description": "The cover page for the Common Paper Mutual NDA. Parties fill in their business terms here; this document incorporates the Mutual-NDA standard terms by reference to form a complete executed agreement.",
+      "filename": "Mutual-NDA-coverpage.md"
+    },
+    {
+      "name": "Cloud Service Agreement (CSA)",
+      "description": "A standard agreement for cloud-hosted software and services, created by a committee of over 40 attorneys. Covers subscription terms, data handling, SLAs, acceptable use, and liability for SaaS vendors and their customers.",
+      "filename": "CSA.md"
+    },
+    {
+      "name": "Design Partner Agreement",
+      "description": "A standard agreement for early-stage design partnerships between a software vendor and a design partner customer. Governs the terms under which a design partner tests and provides feedback on a product in development.",
+      "filename": "design-partner-agreement.md"
+    },
+    {
+      "name": "Service Level Agreement (SLA)",
+      "description": "A standard service level agreement defining uptime commitments, incident response times, and remedies for service failures. Intended to be incorporated by reference into a Cloud Service Agreement or similar contract.",
+      "filename": "sla.md"
+    },
+    {
+      "name": "Professional Services Agreement (PSA)",
+      "description": "A standard agreement for professional and consulting services engagements. Covers statements of work, deliverables, intellectual property ownership, payment terms, and liability for service providers and their clients.",
+      "filename": "psa.md"
+    },
+    {
+      "name": "Data Processing Agreement (DPA)",
+      "description": "A standard data processing agreement addressing GDPR and other privacy law requirements. Defines the obligations of a data processor acting on behalf of a data controller, including security measures, sub-processors, and data subject rights.",
+      "filename": "DPA.md"
+    },
+    {
+      "name": "Software License Agreement",
+      "description": "A standard agreement for licensing on-premises or self-hosted software. Covers license grants, restrictions, maintenance and support, intellectual property, and liability for software vendors and their licensees.",
+      "filename": "Software-License-Agreement.md"
+    },
+    {
+      "name": "Partnership Agreement",
+      "description": "A standard agreement for reseller, referral, or technology partnership arrangements. Covers partner rights and obligations, revenue sharing, branding, intellectual property, and termination.",
+      "filename": "Partnership-Agreement.md"
+    },
+    {
+      "name": "Pilot Agreement",
+      "description": "A standard short-term trial or evaluation agreement allowing a prospective customer to test a product or service before committing to a full commercial contract. Covers pilot scope, duration, fees, data handling, and transition to a full agreement.",
+      "filename": "Pilot-Agreement.md"
+    },
+    {
+      "name": "Business Associate Agreement (BAA)",
+      "description": "A standard HIPAA Business Associate Agreement for vendors that handle protected health information (PHI) on behalf of a covered entity or another business associate. Covers permitted uses of PHI, security obligations, breach notification, and termination.",
+      "filename": "BAA.md"
+    },
+    {
+      "name": "AI Addendum",
+      "description": "A standard addendum to be attached to a Cloud Service Agreement or Software License Agreement when the vendor's product includes AI or machine learning features. Addresses AI-specific concerns such as training data, output accuracy, acceptable use, and liability.",
+      "filename": "AI-Addendum.md"
+    }
+  ]
+}
