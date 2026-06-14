@@ -112,7 +112,7 @@ function TextInput({
       value={value}
       onChange={onChange}
       placeholder={placeholder}
-      className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+      className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
     />
   )
 }
@@ -134,7 +134,7 @@ function TextArea({
       onChange={onChange}
       placeholder={placeholder}
       rows={rows}
-      className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
+      className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
     />
   )
 }
@@ -238,7 +238,7 @@ export default function NDACreator() {
                     value={form.mndaTermYears}
                     onChange={set('mndaTermYears')}
                     disabled={form.mndaTermType !== 'years'}
-                    className="w-16 border border-gray-300 rounded px-2 py-1 text-sm disabled:opacity-40"
+                    className="w-16 border border-gray-300 rounded px-2 py-1 text-sm text-gray-900 disabled:opacity-40"
                   />
                   <span>year(s)</span>
                 </label>
@@ -272,7 +272,7 @@ export default function NDACreator() {
                     value={form.confidentialityTermYears}
                     onChange={set('confidentialityTermYears')}
                     disabled={form.confidentialityTermType !== 'years'}
-                    className="w-16 border border-gray-300 rounded px-2 py-1 text-sm disabled:opacity-40"
+                    className="w-16 border border-gray-300 rounded px-2 py-1 text-sm text-gray-900 disabled:opacity-40"
                   />
                   <span>year(s) from Effective Date</span>
                 </label>
