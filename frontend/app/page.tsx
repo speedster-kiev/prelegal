@@ -1,5 +1,5 @@
-import NDACreator from './components/NDACreator'
+import ChatNDA from './components/ChatNDA'
 
 export default function Home() {
-  return <NDACreator />
+  return <ChatNDA />
 }
